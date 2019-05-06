@@ -3,6 +3,7 @@ public class Customer
 {
 private int customerId;
 private  String firstname;
+private int credit;
 public int getCustomerId()
 {
 	return customerId;
@@ -18,6 +19,14 @@ public String getFirstname()
 public void setFirstname(String firstname)
 {
 	this.firstname = firstname;
+}
+public int getCredit()
+{
+	return credit;
+}
+public void setCredit(int credit)
+{
+	this.credit = credit;
 }
 
 }
